@@ -159,3 +159,15 @@ function myFunction(total, value, index, array)
 console.log(sum);  //99
 
 
+//reduceRight() method :- 
+const numbers3 = [45, 4, 9, 16, 25];
+let sum1 = numbers3.reduceRight(myFunction);
+
+function myFunction(total, value, index, array)
+{
+    return  total + value;
+}
+
+console.log(sum1);  //99
+
+
